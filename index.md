@@ -5,7 +5,6 @@ title: Quick Horror Synopses
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Quick Horror Movie Synopses</title>
     </head>
     <body>
         <h1>Quick Horror Movie Synopses</h1>
