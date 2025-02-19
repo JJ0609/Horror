@@ -1,8 +1,6 @@
 ---
 title: Quick Horror Synopses
 ---
-
-<!DOCTYPE HTML>
 <html>
     <head>
     </head>
