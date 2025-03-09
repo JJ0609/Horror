@@ -66,7 +66,7 @@ title: Quick Horror Movie Synopses
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="https://jj0609.github.io/Horror/trivia_test.html">Trivia</a>
+      <a href="https://jj0609.github.io/Horror/trivia.html">Trivia</a>
     </div>
   </div> 
 </div>
