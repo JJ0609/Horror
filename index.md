@@ -8,7 +8,6 @@ title: Quick Horror Movie Synopses
   overflow: hidden;
   background-color: #333;
 }
-
 .navbar a {
   float: left;
   font-size: 16px;
@@ -17,12 +16,10 @@ title: Quick Horror Movie Synopses
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .dropdown {
   float: left;
   overflow: hidden;
 }
-
 .dropdown .dropbtn {
   font-size: 16px;  
   border: none;
@@ -33,11 +30,9 @@ title: Quick Horror Movie Synopses
   font-family: inherit;
   margin: 0;
 }
-
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-
 .dropdown-content {
   display: none;
   position: absolute;
@@ -46,7 +41,6 @@ title: Quick Horror Movie Synopses
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-
 .dropdown-content a {
   float: none;
   color: black;
@@ -55,11 +49,9 @@ title: Quick Horror Movie Synopses
   display: block;
   text-align: left;
 }
-
 .dropdown-content a:hover {
   background-color: #ddd;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
