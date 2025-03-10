@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         <title>Horror Trivia</title>
-        <style>h1 {text-align: center};
-            p {text-align: justify};
+        <style>h1 {text-align: center;}
+            p {text-align: justify;}
             .flip-card{
                 background-color: transparent;
                 width: 200px;
                 height: 200px;
                 perspective: 1000px;
-                padding: 500px;
+                padding: 20px;
 
             }
             .flip-card-inner{
@@ -21,7 +21,7 @@
                 transform-style: preserve-3d;
                 cursor: pointer;
             }
-            .flip-card:hover .flip-card-inner{
+             .flipped {
                 transform: rotateY(180deg);
             }
             .flip-card-front, .flip-card-back{
@@ -173,5 +173,13 @@
         </div>
     </body>
     <script>
+         const flipCards = document.querySelectorAll(".flip-card");
+
+flipCards.forEach(card => {
+    card.addEventListener("click", function() {
+        const innerCard = this.querySelector(".flip-card-inner");
+        innerCard.classList.toggle("flipped");
+    });
+});
     </script>
 </html>
