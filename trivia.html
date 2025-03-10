@@ -9,7 +9,7 @@
                 width: 200px;
                 height: 200px;
                 perspective: 1000px;
-                padding: 20px;
+                display: inline-block;
 
             }
             .flip-card-inner{
@@ -36,7 +36,7 @@
             }
             .flip-card-back{
                 background-color: white;
-                color: black;
+                color: red;
                 transform: rotateY(180deg);
             }
                .navbar {
@@ -162,6 +162,13 @@
 
 flipCards.forEach(card => {
     card.addEventListener("click", function() {
+
+        flipCards.forEach(c => {
+                        if (c !== card) {
+                            c.querySelector(".flip-card-inner").classList.remove("flipped");
+                        }
+                    });
+        
         const innerCard = this.querySelector(".flip-card-inner");
         innerCard.classList.toggle("flipped");
     });
